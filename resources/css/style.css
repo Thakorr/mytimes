@@ -1,9 +1,7 @@
 body {
-  margin: 0;}
-
-div {
-  border: 1px dotted red;
+  margin: 0;
 }
+
 
 .header {
   font-family: Verdana;
@@ -15,7 +13,8 @@ div {
   background-color: white;
   position: fixed;
   z-index: 1;
-  width: 100%
+  width: 100%;
+  border-bottom: 1px solid black;
 }
 
 .logo {
@@ -42,24 +41,148 @@ div {
   display: flex;
   z-index: 0;
   padding-top: 116px;
+  justify-content: center;
 }
 
 .column-left {
   display: flex;
   width: 630px;
   flex-direction: column;
+  margin-right: 32px;
 }
 
 .column-middle {
   display: flex;
   width: 300px;
+  flex-direction: column;
+  margin-right: 32px;
 }
 
 .column-right {
   display: flex;
   width: 240px;
+  flex-direction: column;
 }
 
-/*.story {
+.secondarystory {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  margin-right: 32px;
+}
+
+.phishconcert {
+  display: flex;
   background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-main.png);
+  height: 300px;
+}
+
+.earthspinbackwards {
+  display: flex;
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-2.png);
+  height: 300px;
+}
+
+.erasememory {
+  display: flex;
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-3.png);
+  height: 300px;
+}
+
+.catstory {
+  display: flex;
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-1.png);
+  height: 300px;
+}
+.caption1 {
+font-family: Georgia;
+font-weight: bold;
+font-size: 40px;
+color: white;
+}
+
+.caption2 {
+font-family: Georgia;
+font-weight: bold;
+font-size: 30px;
+color: white;
+text-align: center;
+}
+
+.narrative {
+font-family: Georgia;
+font-size: 17px;
+color: black;
+}
+
+h2 {
+  font-family: Georgia;
+}
+
+h3 {
+  font-family: Georgia;
+  text-align: center;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.story1 {
+  display: flex;
+  flex-direction: column;
+  height: 250px;
+}
+
+.story2 {
+  display: flex;
+  flex-direction: column;
+  height: 250px;
+}
+
+.twocolumncontainer {
+  display: flex;
+  flex-direction: row;
+}
+
+.newsbites p {
+  background-color: WhiteSmoke;
+  font-family: Verdana;
+  font-size: 12px;
+  color: DimGray;
+  border-bottom: 1px solid black;
+  padding: 10px;
+  margin: 0;
+}
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  background-color: MediumAquamarine;
+  font-family: Verdana;
+  font-size: 12px;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+  height: 325px;
+  width: 100%;
+}
+
+.title {
+  font-family: Georgia;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+  padding-right: 25px;
+  border-right: 2px solid white;
+}
+
+.nav {
+  display: inline-block;
+  padding-left: 25px;
+}
+
+.nav a {
+  color: black;
+}
+.nav span {
+  padding: 20px 10px;
 }
