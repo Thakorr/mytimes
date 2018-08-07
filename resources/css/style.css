@@ -1,0 +1,65 @@
+body {
+  margin: 0;}
+
+div {
+  border: 1px dotted red;
+}
+
+.header {
+  font-family: Verdana;
+  font-size: 14px;
+  font-weight: bold;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: white;
+  position: fixed;
+  z-index: 1;
+  width: 100%
+}
+
+.logo {
+  display: flex;
+}
+
+.mytimes {
+  color: MediumAquamarine;
+  padding-left: 15px;
+}
+
+.navigation {
+  display: flex;
+  margin-left: auto;
+}
+
+.links a {
+  color: black;
+  display: inline-block;
+  padding: 15px;
+}
+
+.content {
+  display: flex;
+  z-index: 0;
+  padding-top: 116px;
+}
+
+.column-left {
+  display: flex;
+  width: 630px;
+  flex-direction: column;
+}
+
+.column-middle {
+  display: flex;
+  width: 300px;
+}
+
+.column-right {
+  display: flex;
+  width: 240px;
+}
+
+/*.story {
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-main.png);
+}
