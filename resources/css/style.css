@@ -42,6 +42,7 @@ body {
   z-index: 0;
   padding-top: 116px;
   justify-content: center;
+  padding-bottom: 80px;
 }
 
 .column-left {
